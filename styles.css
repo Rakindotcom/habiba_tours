@@ -546,4 +546,10 @@ i{
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .btn{
+    font-size: 0.8rem;
+    padding: 5px 15px;
+    border-radius: 10px;
+  }
 }
