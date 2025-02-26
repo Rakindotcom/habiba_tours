@@ -549,12 +549,18 @@ i{
 
   .btn{
     font-size: 0.8rem;
-    padding: 5px 15px;
+    padding: 10px 20px;
     border-radius: 10px;
   }
+}
 
-  .header__image{
-    width: 0.8em;
-    height: auto;
+
+@media (width < 500px) {
+  .header__image img:nth-child(1) {
+    max-width: 250px;
+  }
+
+  .header__image img:nth-child(2) {
+    max-width: 150px;
   }
 }
