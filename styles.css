@@ -552,4 +552,9 @@ i{
     padding: 5px 15px;
     border-radius: 10px;
   }
+
+  .header__image{
+    width: 0.8em;
+    height: auto;
+  }
 }
