@@ -157,6 +157,20 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: slideFromLeft 2s ease forwards;
+  opacity: 0;
+}
+
+@keyframes slideFromLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-100%);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
 }
 
 .header__content > div {
