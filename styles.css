@@ -480,7 +480,7 @@ i{
 
 .footer__bar a {
   text-decoration: none;
-  color: var(--primary-color);
+  color: rgb(199, 199, 190);
   font-weight: 600;
 }
 
