@@ -480,6 +480,8 @@ i{
 
 .footer__bar a {
   text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 600;
 }
 
 #title {
