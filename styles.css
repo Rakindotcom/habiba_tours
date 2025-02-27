@@ -475,6 +475,11 @@ i{
   font-size: 0.8rem;
   color: var(--secondary-color);
   border-top: 1px solid var(--text-light);
+  font-family: monospace;
+}
+
+.footer__bar a {
+  text-decoration: none;
 }
 
 #title {
@@ -493,7 +498,9 @@ i{
   font-size: 1.1rem;  
 }
 
-
+.bangla{
+  font-family: "Anek Bangla", sans-serif;
+}
 
 @media (width < 1200px) {
   .header__image img:nth-child(1) {
