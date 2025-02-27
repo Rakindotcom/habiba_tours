@@ -98,7 +98,7 @@ nav {
 }
 
 .nav__logo span {
-  color: var(--primary-color);
+  color: maroon;
 }
 
 .nav__links {
@@ -443,7 +443,7 @@ i{
 }
 
 .footer__col h3 span {
-  color: var(--primary-color);
+  color: darkorange;
 }
 
 .footer__col p {
@@ -454,7 +454,7 @@ i{
 }
 
 .footer__col p:hover {
-  color: var(--primary-color);
+  color: darkcyan;
 }
 
 .footer__col p span {
@@ -480,12 +480,12 @@ i{
 
 .footer__bar a {
   text-decoration: none;
-  color: rgb(182, 182, 171);
+  color: var(--secondary-color);
   font-weight: 600;
 }
 
 .footer__bar a:hover {
-  color: var(--primary-color);
+  color: darkcyan;
   text-decoration: underline;
 }
 
