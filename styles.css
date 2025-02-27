@@ -484,6 +484,11 @@ i{
   font-weight: 600;
 }
 
+.footer__bar a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
 #title {
   font-size: 3.5rem;
   font-weight: 700;
