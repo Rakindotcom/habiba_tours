@@ -116,7 +116,7 @@ nav {
 }
 
 .link a:hover {
-  color: var(--primary-color);
+  color: maroon;
 }
 
 header {
